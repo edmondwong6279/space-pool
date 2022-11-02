@@ -1,0 +1,17 @@
+{
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-idiomatic-order",
+		"stylelint-config-css-modules"
+	],
+	"rules": {
+		"indentation": "tab",
+		"max-line-length": 120,
+		"function-url-quotes": "always",
+		"no-descending-specificity": null,
+		"at-rule-no-unknown": null,
+		"selector-class-pattern": null,
+		"custom-property-pattern": null
+	},
+	"customSyntax": "postcss-scss"
+}
