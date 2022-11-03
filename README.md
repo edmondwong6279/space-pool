@@ -1,24 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Space pool rendered with Threejs
 
-## Getting Started
+Getting some practise using threejs for rendering and cannon-es as the physics engine.
 
-First, run the development server:
+## Running the application:
+Developed using node 16.17.1.
 
-```bash
-yarn dev
-```
+```yarn install```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```yarn build```
 
-You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
+```yarn start```
 
-The `src/pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## To do:
+1. Background image is very large, either optimise or create loading screen that pauses until all assets are loaded in.
+2. Physics of force applied is not always accurate
